@@ -1,0 +1,19 @@
+// @import "base";
+// @import "layout";
+// @import "component";
+
+@use './abstract/base';
+@use './abstract/component';
+@use './abstract/layout';
+
+// @media (max-width: 1000px){
+//   @use './layout/1000down';
+// }
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+}

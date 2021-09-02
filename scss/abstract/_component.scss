@@ -1,0 +1,33 @@
+// reusable, selectors
+@use '../abstract/base' as b;
+
+
+.main-btn{
+  border: 1px solid b.$masterd;
+  width: 170px;
+  height: 40px;
+  color: b.$masterd;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    background-color: b.$masterd;
+    border: 1px solid transparent;
+    color: #333;
+    cursor: pointer;
+  }
+}
+
+.card{
+  width: calc(100% / 3);
+  height: 30vw;
+}
+
+.center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
