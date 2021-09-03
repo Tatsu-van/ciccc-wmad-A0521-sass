@@ -1,0 +1,61 @@
+@use '../base' as *;
+
+@media (min-width:768px) and (max-width:1024px) {
+  
+  .about-us{
+    &-left{
+      left: -120px;
+      > img{
+        width: 100%;
+      }
+    }
+  }
+
+  .gallery{
+    .cards-wrapper{
+      .card{
+        &-overlay{
+          &-heading{
+            font-size: 35px;
+
+          }
+          &-paragraph{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer{
+    &-header{
+      .logo{
+        width: 70px;
+        height: 70px;
+        border: 2px solid $masterd;
+        border-radius: 50%;
+        display: flex;
+        margin-right: 10px;
+        
+        img{
+          width: 70px;
+          height: 70px;
+        }
+      }
+      .main-name{
+        font-size: 30px;
+      }
+      .sub-name{
+        font-size: 15px;
+      }
+    }
+    &-social-media{
+      width: 300px;
+      .social-media{
+        &-link{
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}

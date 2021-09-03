@@ -1,0 +1,130 @@
+@use '../base' as *;
+
+.main-heading{
+  font-size: 40px;
+}
+
+.sub-heading{
+  font-size: 20px;
+}
+
+.navbar{
+  &-navigation{
+    &-left{
+      display: none;
+    }
+    &-right{
+      width: 100%;
+      right: -100%;
+    }
+  }
+}
+
+.header{
+  width: 100vw;
+  // height: auto;
+  .brand{
+    .main-name{
+      font-size: 20px;
+    }
+    .sub-name{
+      font-size: 12px;
+    }
+  }
+  &-banner{
+    .main-heading{
+      font-size: 40px;
+    }
+    .sub-heading{
+      font-size: 20px;
+    }
+    .main-btn{
+      font-size: 10px;
+      width: 120px;
+      height: 35px;
+    }
+  }
+}
+.about-us{
+  &-left{
+    display: none;
+  }
+  &-right{
+    width: 100%;
+    .main-heading{
+      font-size: 40px;
+    }
+    .sub-heading{
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+    .stars{
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    .description{
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .main-btn{
+      width: 120px;
+      height: 35px;
+      font-size: 10px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.gallery{
+  .cards-wrapper{
+    .card{
+      &-overlay{
+        &-heading{
+          display: none;
+        }
+        &-paragraph{
+          display: none;
+        }
+        &-btn{
+          width: 80px;
+          height: 30px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  &-header{
+    .logo{
+      font-size: 20px;
+      width: 80px;
+      height: 80px;
+      > img{
+        width: 80px;
+        height: 80px;
+      }
+    }   
+    .main-name{
+      font-size: 20px;
+    }
+    .sub-name{
+      font-size: 12px;
+    }
+  }
+  &-social-media{
+    width: 300px;
+    .social-media{
+      &-link{
+        font-size: 35px;
+      }
+    }
+  }
+  &-copyright{
+    &-paragraph{
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+  }
+}

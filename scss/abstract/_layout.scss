@@ -5,6 +5,14 @@
 @use './layout/gallery';
 @use './layout/footer';
 
+@media (min-width:769px) and (max-width:1024px) {
+  @import './layout/1024down';
+}
+
+@media (max-width: 768px){
+  @import './layout/768down';
+}
+
 
 body{
   color: #bbbbbb;
